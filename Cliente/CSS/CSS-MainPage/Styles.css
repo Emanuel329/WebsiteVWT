@@ -1,0 +1,100 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.centered{
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    display: flex;
+    justify-content:center;
+}
+.centered2{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    text-align: center;
+    transform: translateY(-350%);
+    font-size: 30px;
+}
+.header2{
+    position: absolute;
+    text-align: center;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:100px ;
+    transform: translateY(17%);
+}
+.circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../Img-Circulos/Especies.jpg);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    opacity: 0.8;
+}
+
+.circle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../Img-Circulos/Cirugias.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    opacity: 0.9;
+}
+
+
+
+.contenedor {
+    background: gray; /* Cambia el fondo del contenedor a gris */
+    height: 75vh;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bc{
+    width: 1000px;
+    height: 55vh;
+    border-radius: 10px;
+    transform: translateX(17%);
+    margin-top: 135px;
+    position: absolute;
+}
+.contenedor3{
+    background: white;
+    height: 50vh;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}

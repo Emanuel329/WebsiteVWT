@@ -1,0 +1,24 @@
+/***** COMBINACIONES *****/
+
+/* 1. Combinacion desendente*/
+.box1 p{
+    color: red;
+}
+
+/* 2. Combinacion desendente*/
+.box2 > p{
+    color: green;
+}
+
+/* 3. Combinacion Hermanos Adyacente A + B */
+
+article h1 + p {
+    color: white;
+    background-color: blue;
+}
+
+/* 3. Combinacion Hermanos Generales A ~ B */
+section h1 ~ p{
+    color: red;
+    background-color: lightcoral;
+}

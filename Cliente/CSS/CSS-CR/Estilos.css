@@ -1,0 +1,20 @@
+.imgP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.imgP .Img_Perro{
+    margin-top: 40px;
+}
+
+.imgP .Img_Estomago{
+    margin-top: 200px;
+
+}
+.Cirugia_Titulo{
+    transform: translateX(-75%);
+}

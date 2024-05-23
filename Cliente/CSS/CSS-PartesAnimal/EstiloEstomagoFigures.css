@@ -1,0 +1,12 @@
+/* Estilo para la lista de figuras */
+.figure-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.figure-list li {
+    margin-bottom: 10px;
+}
+.figure-list li:hover {
+    color: blue;
+    cursor: pointer;
+}
